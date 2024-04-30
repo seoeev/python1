@@ -3,6 +3,9 @@ class FourCal:
         self.first = first
         self.second = second
 
+    def __init__(self):
+        pass
+
     def setdata(self, first, second):
         # 맴버 변수 선언이 불필요
         self.first = first
@@ -13,7 +16,7 @@ class FourCal:
         return result
 
 
-a = FourCal(10, 20)
+a = FourCal()
 print(type(a))
 a.setdata(10, 20)
 print(a.add())
